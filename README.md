@@ -134,7 +134,7 @@ Me apasionan especialmente:
 
 <img src="https://github-readme-stats.vercel.app/api?username=Juan-MarinC&show_icons=true&theme=tokyonight&locale=es"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Juan-MarinC&theme=material-palenight"/>
+<img src="https://streak-stats.demolab.com/?user=Juan-MarinC&theme=material-palenight"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Juan-MarinC&layout=compact&theme=tokyonight"/>
 
