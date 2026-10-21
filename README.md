@@ -5,8 +5,7 @@
 
 <p align="center">
 💻 Tecnólogo en Desarrollo de Software <br>
-🎓 Estudiante de Ingeniería en Desarrollo de Software (7° semestre) <br>
-📊 Live Data Analyst en Genius Sports <br>
+🎓 Estudiante de Ingeniería en Desarrollo de Software (8° semestre) <br>
 ☁️ Interesado en Cloud Computing, Backend, DevOps y Ciberseguridad
 </p>
 
