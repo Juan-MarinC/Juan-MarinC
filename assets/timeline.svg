@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-label="Trayectoria: 2022, inicio de Tecnología en Desarrollo de Software en Pascual Bravo; 2024, Live Data Analyst en Genius Sports (actual); 2025, desarrollador de software en VIVA Antioquia; 2026, tecnólogo y estudiante de Ingeniería en 8.º semestre (en curso)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#14264f"/>
+    </linearGradient>
+    <linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="110" y1="0" x2="770" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+    .m{font-family:'Cascadia Code',Consolas,'Courier New',monospace}
+    .line{stroke-dasharray:660;animation:draw 2.2s ease-out}
+    @keyframes draw{from{stroke-dashoffset:660}}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+    @keyframes pulse{from{transform:scale(1);opacity:.7}to{transform:scale(2.8);opacity:0}}
+    .item{animation:up .8s ease-out both}
+    .i2{animation-delay:.5s}.i3{animation-delay:1s}.i4{animation-delay:1.5s}
+    @keyframes up{from{opacity:0;transform:translateY(10px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="880" height="210" rx="18" fill="url(#bg)"/>
+  <path class="line" d="M110 78H770" stroke="url(#ln)" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <g class="item i1">
+    <text class="m" x="110" y="50" text-anchor="middle" font-size="13" fill="#7dd3fc">2022</text>
+    <circle cx="110" cy="78" r="8" fill="#0b1020" stroke="#38bdf8" stroke-width="3"/>
+    <text class="t" x="110" y="117" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">Pascual Bravo</text>
+    <text class="t" x="110" y="140" text-anchor="middle" font-size="13" fill="#cbd5e1">Inicio de Tecnología</text>
+    <text class="t" x="110" y="158" text-anchor="middle" font-size="13" fill="#cbd5e1">en Desarrollo de Software</text>
+  </g>
+
+  <g class="item i2">
+    <text class="m" x="330" y="50" text-anchor="middle" font-size="13" fill="#7dd3fc">2024</text>
+    <circle class="pulse" cx="330" cy="78" r="8" fill="#38bdf8"/>
+    <circle cx="330" cy="78" r="8" fill="#38bdf8" stroke="#e0f2fe" stroke-width="2"/>
+    <text class="t" x="330" y="117" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">Genius Sports</text>
+    <text class="t" x="330" y="140" text-anchor="middle" font-size="13" fill="#cbd5e1">Live Data Analyst</text>
+    <text class="t" x="330" y="158" text-anchor="middle" font-size="13" fill="#cbd5e1">datos deportivos en vivo</text>
+    <rect x="298" y="170" width="64" height="20" rx="10" fill="#22c55e" fill-opacity=".15" stroke="#22c55e"/>
+    <text class="t" x="330" y="184" text-anchor="middle" font-size="11" font-weight="600" fill="#4ade80">actual</text>
+  </g>
+
+  <g class="item i3">
+    <text class="m" x="550" y="50" text-anchor="middle" font-size="13" fill="#7dd3fc">2025</text>
+    <circle cx="550" cy="78" r="8" fill="#0b1020" stroke="#38bdf8" stroke-width="3"/>
+    <text class="t" x="550" y="117" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">VIVA Antioquia</text>
+    <text class="t" x="550" y="140" text-anchor="middle" font-size="13" fill="#cbd5e1">Desarrollador de software</text>
+    <text class="t" x="550" y="158" text-anchor="middle" font-size="13" fill="#cbd5e1">Python · JavaScript · SQL</text>
+  </g>
+
+  <g class="item i4">
+    <text class="m" x="770" y="50" text-anchor="middle" font-size="13" fill="#7dd3fc">2026</text>
+    <circle class="pulse" cx="770" cy="78" r="8" fill="#38bdf8"/>
+    <circle cx="770" cy="78" r="8" fill="#38bdf8" stroke="#e0f2fe" stroke-width="2"/>
+    <text class="t" x="770" y="117" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">Tecnólogo ✓</text>
+    <text class="t" x="770" y="140" text-anchor="middle" font-size="13" fill="#cbd5e1">Ingeniería en Desarrollo</text>
+    <text class="t" x="770" y="158" text-anchor="middle" font-size="13" fill="#cbd5e1">de Software · 8.º semestre</text>
+    <rect x="734" y="170" width="72" height="20" rx="10" fill="#22c55e" fill-opacity=".15" stroke="#22c55e"/>
+    <text class="t" x="770" y="184" text-anchor="middle" font-size="11" font-weight="600" fill="#4ade80">en curso</text>
+  </g>
+</svg>
